@@ -7,11 +7,15 @@
 
 /* Corpo da página */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f3f4f6;
-    color: #1f2937;
-    line-height: 1.6;
-    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+    color: #444;
+
+    background-image: url("fundo-futurista-de-tecnologia-gradiente.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Container central */
@@ -24,24 +28,35 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* Títulos das paginas  */
+/*Titulos da pagina*/
 h1 {
+    background: linear-gradient(90deg, #4F46E5, #7C3AED);
+    color: #FFFFFF;
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 2rem;
-    color: #111827;
+    font-size: 46px;
+    padding: 20px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    letter-spacing: 1px;
 }
 
 h2 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-    color: #2563eb;
+    color: #1e293b;
+    background-color: #818cf8;
+    font-size: 32px;
+    border-left: 6px solid #6366f1;
+    padding: 12px 16px;
+    margin-top: 48px;
+    margin-bottom: 12px;
+    border-radius: 4px;
 }
 
-/* Parágrafos  e linha divisoria*/
+/* Parágrafos e linhas divisorias  */
 p {
-    margin-bottom: 8px;
+    margin-bottom: 14px;
+    color: #e2e8f0;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 hr {
